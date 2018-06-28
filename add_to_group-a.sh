@@ -1,6 +1,11 @@
 #! /bin/sh
 # 
-# Add a list of servers to a group in AD. Provice the groupname as an argument and a list in the file add.list
+# Add a list of servers to a group in AD. 
+# Create a file with the contents being a list of  the servers you wish to add to the group
+# Name the file/list with the name of the AD group
+# FILENAME=ADGROUPNAME
+# Contents = server names
+# Usage: add_to_group-a.sh <FILENAME>
 
 # check for the groupname arg and see if it's valid
 
